@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.min.js"></script>
+    <script src="node_modules/systemjs/dist/system.js"></script>
+</head>
+<body>
+
+<div id="app">
+</div>
+
+
+<script src="node_modules/systemjs/dist/system.js"></script>
+<script>
+    SystemJS.config({
+        baseURL: './src',
+        transpiler: 'plugin-babel',
+        map: {
+            'plugin-babel': './node_modules/systemjs-plugin-babel/plugin-babel.js',
+            'systemjs-babel-build': './node_modules/systemjs-plugin-babel/systemjs-babel-browser.js'
+        }
+    });
+
+    SystemJS.import('main.js');
+</script>
+
+</body></html>

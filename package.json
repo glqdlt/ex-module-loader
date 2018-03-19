@@ -1,0 +1,21 @@
+{
+  "name": "ex-vue-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vue.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "systemjs": "^0.21.0",
+    "systemjs-plugin-babel": "0.0.25",
+    "vue": "^2.5.16",
+    "vue-simple-calendar": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
